@@ -15,5 +15,12 @@
         "psr-4": {
             "Avacoder\\OneAuth\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Avacoder\\OneAuth\\OneAuthServiceProvider"
+            ]
+        }
     }
 }
