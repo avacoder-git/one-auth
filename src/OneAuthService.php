@@ -66,7 +66,7 @@ class OneAuthService
     {
         self::$code = $token;
         $params = self::makeParams();
-        $user = User::query()->where('pinfl',$params['pinfl'] )->first();
+        $user = User::query()->where('pinfl',$params['pinfl'] )->where('email', $params['email'])->first();
 
         if (!$user){
             $user = new User();
