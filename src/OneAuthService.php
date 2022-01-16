@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Avacoder\OneAuth;
+namespace Teampro\OneAuth;
 
 use Carbon\Carbon;
 use App\Models\User;

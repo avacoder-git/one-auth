@@ -1,5 +1,5 @@
 {
-    "name": "avacoder/one-auth",
+    "name": "temprodev/one-auth",
     "description": "This will create Authorization with OneID module",
     "type": "library",
     "license": "MIT",
@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Avacoder\\OneAuth\\": "src"
+            "Teampro\\OneAuth\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Avacoder\\OneAuth\\OneAuthServiceProvider"
+                "Teampro\\OneAuth\\OneAuthServiceProvider"
             ]
         }
     }

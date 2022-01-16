@@ -1,6 +1,6 @@
 <?php
 
-namespace Avacoder\OneAuth;
+namespace Teampro\OneAuth;
 
 use Illuminate\Support\ServiceProvider;
 
