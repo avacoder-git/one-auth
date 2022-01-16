@@ -24,7 +24,7 @@ class OneAuthService
             'redirect_uri' => env('ONE_ID_REDIRECT_URI')
         ]);
 
-        return json_decode($response)->access_token;
+        return json_decode($response);
     }
 
     public static function getOneAuthData()
